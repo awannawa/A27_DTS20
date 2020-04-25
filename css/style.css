@@ -19,12 +19,11 @@ a {
 }
 .navbar {
 	width: 100%;
-	background-color: rgba(255, 255, 255, 0.75);
+	background: #fff;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 30px;
-    position: fixed;
     top: 0;
 }
 
@@ -100,7 +99,7 @@ body {
 }
 .flex-1 img {
     float: right;
-    max-height: 590px;
+    width: 100%;
 }
 
 .btn-service{
