@@ -51,14 +51,13 @@
 	.grid-kanan img {
 		max-width: 100%;
 	}
+	
 }
 
 
 
 /* smartpun */
 @media (max-width: 670px) {
-	
-	
 	.top-wrapper .tengah {
 		text-align: center;
 	}
@@ -85,4 +84,5 @@
 	.grid-top-wrapper .grid-kanan {
 		display: none;
 	}
+
 }
