@@ -1,4 +1,5 @@
 # A27_DTS20
+<<<<<<< HEAD
 Pembagian Tim A27_DTS20
 -------------
 Di benerin sesuai tugas ya
@@ -12,3 +13,11 @@ klik <Branch> yg ada di sebelah kiri terus pilih branch sesuai jobdesknya ya dis
  master (Nanti kalau sudah finish saya compile kesini)
 
 kalo mau tanya tanya jangan sungkan pm saja ke discord
+=======
+Tim A27_DTS20
+-----------
+
+Di dalam branch ini ada <br>
+
+navbar, home, our services
+>>>>>>> top-wrapper
