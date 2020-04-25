@@ -84,5 +84,7 @@
 	.grid-top-wrapper .grid-kanan {
 		display: none;
 	}
-
+	.cards_item {
+		padding-right: 0;
+	}
 }
