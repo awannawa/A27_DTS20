@@ -66,6 +66,28 @@ a {
 		background: rgba(0, 0, 0, 0.8);
 	}
 }
+/* btt */
+#btt {
+    display: inline-block;
+    background: rgb(150, 150, 150);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#btt .show {
+    opacity: 1;
+    visibility: visible;
+}
+/* end of btt */
 /* end of navbar  */
 
 body {
