@@ -18,7 +18,7 @@ a {
 }
 .navbar {
 	width: 100%;
-	background: #fff;
+	background: #f5f5f5;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -96,7 +96,6 @@ body {
 }
 /* home */
 #home {
-    margin-top: 2.5rem;
     padding: 0 30px;
 }
 
@@ -128,6 +127,7 @@ body {
 
 .grid-kanan img {
     float: right;
+    height: 600px;
 }
 
 .btn-service{
