@@ -1,6 +1,4 @@
-
-
-@media (max-width: 670px) {
+@media (max-width: 1000px) {
 	.icon,
 	.close-btn {
 		display: block;
@@ -50,6 +48,16 @@
 	.open .backdrop {
 		display: block;
 	}
+	.grid-kanan img {
+		max-width: 100%;
+	}
+}
+
+
+
+/* smartpun */
+@media (max-width: 670px) {
+	
 	
 	.top-wrapper .tengah {
 		text-align: center;
@@ -67,5 +75,14 @@
 	}
 	.tengah li {
 		float: left;
+	}
+	.top-wrapper .grid-top-wrapper {
+		display: grid;
+		margin-top: 0.5rem;
+		grid-template-columns: 1fr;
+		grid-template-areas: "grid-kiri";
+	}
+	.grid-top-wrapper .grid-kanan {
+		display: none;
 	}
 }

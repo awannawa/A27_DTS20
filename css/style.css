@@ -81,23 +81,31 @@ body {
 
 .top-wrapper {
     padding: 10px 0;
-    display: flex;
+}
+.top-wrapper .grid-top-wrapper {
+    display: grid;
+    margin-top: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "grid-kiri grid-kanan";
+    /* grid-gap: 12px; */
     align-items: center;
-    flex-wrap: wrap;
 }
-.top-wrapper h1 {
-    font-size: 2.5rem;
+.grid-top-wrapper .grid-kiri {
+    grid-area: grid-kiri;
 }
-.top-wrapper ul {
+.grid-kiri ul {
     list-style: none;
     display: flex;
     padding-top: 1.25rem;
 }
 
-.flex-1 {
-    flex: 1;
+.grid-top-wrapper .grid-kanan {
+    grid-area: grid-kanan;
 }
-.flex-1 img {
+
+.grid-kanan img {
     float: right;
 }
 
