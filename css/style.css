@@ -86,7 +86,7 @@ body {
     flex-wrap: wrap;
 }
 .top-wrapper h1 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
 .top-wrapper ul {
     list-style: none;
@@ -99,7 +99,6 @@ body {
 }
 .flex-1 img {
     float: right;
-    width: 100%;
 }
 
 .btn-service{
