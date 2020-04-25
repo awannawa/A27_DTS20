@@ -26,7 +26,7 @@ a {
     top: 0;
 }
 
-.icon,
+.icon-slide-menu,
 .close-btn {
 	display: none;
 	font-size: 1.2em;
@@ -80,11 +80,21 @@ a {
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
+    cursor: pointer;
 }
 
-#btt .show {
+#btt.show {
     opacity: 1;
     visibility: visible;
+}
+#btt::after {
+    content: "\f077";
+    font-family: "Font Awesome 5\ Free";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
 }
 /* end of btt */
 /* end of navbar  */
@@ -168,7 +178,6 @@ body {
 }
 .cards {
     margin-top: 1rem;
-
     flex-wrap: wrap;
     list-style: none;
     margin: 0;
