@@ -57,17 +57,18 @@
 		width: auto;
 		padding: 0;
 	}
+	.container-contact h2 {
+		font-size: 2rem;
+	} 
+	.comtainer-contact h3 {
+		font-size: 1rem;
+	}
 	#btt {
 		display: none !important;
 	}
 }
 @media (max-width: 390px) {
-	.container-contact h2 {
-		font-size: 2rem;
-	} 
-	.comtainer-contact h3, {
-		font-size: 1rem;
-	}
+
 	.projects-top img {
 		width: 100%;
 		height: auto;
