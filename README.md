@@ -1,7 +1,7 @@
 # A27_DTS20
 
  ------
- <a target="_blank" href="https://awannawa.github.io/A27_DTS20/">Demo Site</a>
+ <a href="https://awannawa.github.io/A27_DTS20/" onclick="return ! window.open(this.href);">Demo Site</a>
  ------
 
  - 26/04/2020 <br>
