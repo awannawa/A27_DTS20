@@ -13,6 +13,10 @@ klik <Branch> yg ada di sebelah kiri terus pilih branch sesuai jobdesknya ya dis
  ------
  update 26/04/2020
  ------
- Deleted all branch
+ Deleted all branch <br>
+
+<a href="https://awannawa.github.io/A27_DTS20/">
+Demo Site Kelik Disini
+</a>
 
 kalo mau tanya tanya jangan sungkan pm saja ke discord
