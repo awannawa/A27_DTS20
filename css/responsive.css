@@ -68,4 +68,8 @@
 	.comtainer-contact h3, {
 		font-size: 1rem;
 	}
+	.projects-top img {
+		width: 100%;
+		height: auto;
+	}
 }
