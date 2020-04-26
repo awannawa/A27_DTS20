@@ -25,6 +25,8 @@
         zoom:1;
         *display: inline;
 	}
+
+
 	.tengah li {
 		float: left;
 	}
@@ -40,7 +42,28 @@
 	.cards_item {
 		padding-right: 0;
 	}
+	.card_title {
+		padding-top: 2rem;
+	}
+	.cards_item {
+		width: 100%;
+	}
+	.card_content {
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+		padding: 0;
+	}	
 	#btt {
 		display: none;
+	}
+}
+
+@media (max-width: 390px) {
+	.container-contact h2 {
+		font-size: 2rem;
+	} 
+	.comtainer-contact h3, {
+		font-size: 1rem;
 	}
 }
