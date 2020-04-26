@@ -10,5 +10,9 @@ klik <Branch> yg ada di sebelah kiri terus pilih branch sesuai jobdesknya ya dis
  tools-and-skills<br>
  top-wrapper<br>
  master (Nanti kalau sudah finish saya compile kesini)
+ ------
+ update 26/04/2020
+ ------
+ Deleted all branch
 
 kalo mau tanya tanya jangan sungkan pm saja ke discord
