@@ -190,14 +190,13 @@ a {
     text-transform: capitalize;
     margin: 0px;
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 1rem;
 }
 .card_text {
     color: black;
-    font-size: 1rem;
     line-height: 1.5;
-    padding-top: 2rem;
+    padding-top: 1rem;
     margin-bottom: 1.25rem;
     font-weight: 400;
     text-align: center;
