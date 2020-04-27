@@ -4,7 +4,7 @@
 		max-width: 100%;
 	}
 	.projects hr {
-		max-width:100%;
+		max-width:80%;
 	}
 }
 
@@ -33,7 +33,7 @@
 	}
 
 	.navigation li {
-		width: 100%;
+		width: 50%;
 	}
 
 	.navigation li a {
@@ -93,8 +93,8 @@
 		display: none;
 	}
 
-	hr {
-		width:90%;
+	.projects hr {
+		width:50%;
         }
 
 }
@@ -131,15 +131,7 @@
 		display: none !important;
 	}
 
-	hr {
-width:75%
-	}
-}
-
 @media (max-width: 390px) {
-
-hr {
-width: 50%;}
 	.projects-top img {
 		width: 100%;
 		height: auto;
