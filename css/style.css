@@ -148,7 +148,7 @@ header a {
 
 .top-wrapper .grid-top-wrapper {
     display: grid;
-    margin-top: 0.5rem;
+    padding-top: 20px;
     padding-left: 3rem;
     padding-right: 3rem;
     grid-template-columns: 1fr 1fr;
