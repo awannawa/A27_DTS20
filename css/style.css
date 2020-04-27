@@ -108,12 +108,10 @@ header a {
     z-index: 1000;
     cursor: pointer;
 }
-
 #btt.show {
     opacity: 1;
     visibility: visible;
 }
-
 #btt::after {
     content: "\f077";
     font-family: "Font Awesome 5\ Free";
@@ -121,9 +119,8 @@ header a {
     font-style: normal;
     font-size: 2em;
     line-height: 50px;
-    color: #fff;
+    color: rgba(255,255,255, 1);
 }
-
 /* end of btt */
 /* end of navbar  */
 
@@ -193,6 +190,7 @@ header a {
 }
 
 #services .our-services {
+    margin-top: 30px;
     padding-bottom: 1rem;
 
 }
@@ -274,6 +272,7 @@ header a {
 .projects-top {
     text-align: center;
     display: table;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -328,7 +327,9 @@ header a {
 .konten-text {
     max-width: 900px;
     margin: auto;
-    padding: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
     text-align: center;
 }
 
