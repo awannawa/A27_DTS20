@@ -3,7 +3,7 @@
 	.grid-kanan img {
 		max-width: 100%;
 	}
-	.projects-top hr {
+	.projects hr {
 		max-width:100%;
 	}
 }
@@ -93,7 +93,7 @@
 		display: none;
 	}
 
-	.projects-top hr {
+	.projects hr {
 		max-width:90%;
         }
 
@@ -131,13 +131,13 @@
 		display: none !important;
 	}
 
-	.projects-top hr {max-width:75%
+	.projects hr {max-width:75%
 	}
 }
 
 @media (max-width: 390px) {
 
-.projects-top hr {
+.projects hr {
 max-width: 50%;}
 	.projects-top img {
 		width: 100%;
