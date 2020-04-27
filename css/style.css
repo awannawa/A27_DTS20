@@ -271,8 +271,12 @@ header a {
 }
 
 /* porjects */
-.projects hr {
-width:700px}
+.featured-projects hr {
+    margin-left:auto; 
+    margin-right:auto; 
+    margin-top: 30px;
+    max-width: 70%;
+}
 
 .projects-top {
     text-align: center;

@@ -3,9 +3,6 @@
 	.grid-kanan img {
 		max-width: 100%;
 	}
-	.projects hr {
-		max-width:80%;
-	}
 }
 
 
@@ -24,7 +21,6 @@
 	.navigation {
 		position: fixed;
 		width: 100%;
-		
 		background: #f5f5f5;
 		top: -110%;
 		left: 0;
@@ -89,10 +85,6 @@
 	.grid-top-wrapper .grid-kanan {
 		display: none;
 	}
-
-	.projects hr {
-		width:50%;
-        }
 
 }
 
