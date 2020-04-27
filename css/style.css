@@ -74,13 +74,10 @@ header a {
 }
 
 .show-menu-btn {
-    margin-right: 25px;
+   /*  margin-right: 25px; */
     float: right;
 }
 
-.show-menu-btn i {
-    line-height: 100px;
-}
 
 .navigation a:hover,
 .show-menu-btn:hover,
