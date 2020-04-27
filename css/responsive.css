@@ -3,7 +3,9 @@
 	.grid-kanan img {
 		max-width: 100%;
 	}
-
+	.projects-top hr {
+		max-width:100%;
+	}
 }
 
 
@@ -76,8 +78,6 @@
 		zoom: 1;
 		*display: inline;
 	}
-
-
 	.tengah li {
 		float: left;
 	}
@@ -92,6 +92,11 @@
 	.grid-top-wrapper .grid-kanan {
 		display: none;
 	}
+
+	.projects-top hr {
+		max-width:90%;
+        }
+
 }
 
 @media (max-width: 450px) {
@@ -125,12 +130,18 @@
 	#btt {
 		display: none !important;
 	}
+
+	.projects-top hr {max-width:75%
+	}
 }
 
 @media (max-width: 390px) {
 
+.projects-top hr {
+max-width: 50%;}
 	.projects-top img {
 		width: 100%;
 		height: auto;
 	}
+
 }
