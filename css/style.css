@@ -63,13 +63,7 @@ header a {
     text-align: center;
     display: block;
     text-decoration: none;
-}
-
-.navigation li a i {
-    width: 100%;
-    font-size: 20px;
-    margin-bottom: 7px;
-}
+}}
 
 .show-menu-btn,
 .hide-menu-btn {
