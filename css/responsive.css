@@ -16,6 +16,9 @@
 		display: block;
 	}
 
+	.show-menu-btn {
+		margin-top: 20px;
+	}
 	.navigation {
 		position: fixed;
 		width: 100%;
@@ -43,7 +46,7 @@
 
 	.hide-menu-btn {
 		position: absolute;
-		top: 30px;
+		top: 20px;
 		right: 35px;
 	}
 
