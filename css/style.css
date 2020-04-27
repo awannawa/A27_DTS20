@@ -78,10 +78,6 @@ header a {
     float: right;
 }
 
-.show-menu-btn i {
-    line-height: 100px;
-}
-
 .navigation a:hover,
 .show-menu-btn:hover,
 .hide-menu-btn:hover {
