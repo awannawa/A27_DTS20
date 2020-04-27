@@ -127,6 +127,7 @@
 	#btt {
 		display: none !important;
 	}
+	}
 
 @media (max-width: 390px) {
 	.projects-top img {
@@ -134,4 +135,4 @@
 		height: auto;
 	}
 
-}
+	}
