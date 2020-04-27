@@ -16,62 +16,35 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/81c2c05f29.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <!-- end of CSS -->
 </head>
 
 <body>
     <!-- NAVBAR -->
-          <header>
-            <div class="container-nav">
-                <nav class="navbar navbar-default">
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2">
-                                <span class="sr-only">Tombol navbarnya</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="#"><strong>A27_DTS20</strong>
-                            </a>
-                        </div>
-                        <div id="navbar2" class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#services">Services</a></li>
-                                <li><a href="#projects">Projects</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                                <!-- <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                        aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="#">Bingung mau nulis apa</a></li>
-                                        <li><a href="#">Bingung mau nulis apa</a></li>
-                                        <li><a href="#">Bingung mau nulis apa</a></li>
-                                        <li class="divider"></li>
-                                        <li class="dropdown-header">Judul Coming SOon</li>
-                                        <li><a href="#">Bingung mau nulis apa</a></li>
-                                        <li><a href="#">Bingung mau nulis apa</a></li>
-                                    </ul>
-                                </li> -->
-                            </ul>
-                        </div>
-                        <!--/.nav-collapse -->
-                    </div>
-                    <!--/.container-fluid -->
-                </nav>
-            </div>
+    <header>
+        <div class="brand-logo">
+            <a href="/"><img src="img/fav.png" alt="awannawa"></a>
+        </div>
 
-            <!-- btt -->
-            <a title="Kembali ke atas" id="btt"></a>
-            <!-- btt -->
-          </header>
+        <input type="checkbox" id="toggle-btn">
+        <label for="toggle-btn" class="show-menu-btn"><i class="fas fa-bars"></i></label>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <label for="toggle-btn" class="hide-menu-btn"><i class="fas fa-times"></i></label>
+            </ul>
+        </nav>
+        <!-- btt -->
+        <a title="Kembali ke atas" id="btt"></a>
+        <!-- btt -->
+    </header>
     <!-- NAVBAR -->
 
     <!-- Tugas kamu membuat code di bagian ini -->
@@ -84,13 +57,13 @@
                             <h1>Selamat Datang</h1>
                             <h2>Di Landingpage</h2>
                             <h1><strong>Tim A27_DTS20</strong></h1>
-                            <a href="#service" class="btn-service" title="Menuju ke Service">
+                            <a href="#services" class="btn-service" title="Menuju ke Service">
                                 Cekidot
                             </a>
                             <ul>
                                 <li>
-                                    <a target="_blank" href="http://awannawa.github.io/A27_DTS20"
-                                        title="Menuju Github Tim A27_DTS20" style="color:inherit;">
+                                    <a target="_blank" href="https://github.com/awannawa/A27_DTS20/"
+                                        title="Menuju Repository Github Team A27_DTS20" style="color:inherit;">
                                         <i class="fab fa-2x fa-github"></i>
                                     </a>
                                 </li>
@@ -124,7 +97,9 @@
                                 </div>
                                 <div class="card_content">
                                     <h2 class="card_title">UI UX</h2>
-                                    <p class="card_text">Kami menyediakan jasa membuat UI UX apa pun dimanapun kapanpun siapapun berapapun pokoknya bisa untuk semuanya udah itu aja. Bingung mau nulis apa lagi, tulisan gak dinilai kan ya hehehe.</p>
+                                    <p class="card_text">Kami menyediakan jasa membuat UI UX apa pun dimanapun kapanpun
+                                        siapapun berapapun pokoknya bisa untuk semuanya udah itu aja. Bingung mau nulis
+                                        apa lagi, tulisan gak dinilai kan ya hehehe.</p>
                                 </div>
                             </div>
                         </li>
@@ -134,7 +109,9 @@
                                 <div class="card_image"><img src="img/web-programming.png" alt="Web Developer"></div>
                                 <div class="card_content">
                                     <h2 class="card_title">Web Developer</h2>
-                                    <p class="card_text">Kami menyediakan jasa membuat Web Developer apa pun dimanapun kapanpun siapapun berapapun pokoknya bisa untuk semuanya udah itu aja. Bingung mau nulis apa lagi, tulisan gak dinilai kan ya hehehe.</p>
+                                    <p class="card_text">Kami menyediakan jasa membuat Web Developer apa pun dimanapun
+                                        kapanpun siapapun berapapun pokoknya bisa untuk semuanya udah itu aja. Bingung
+                                        mau nulis apa lagi, tulisan gak dinilai kan ya hehehe.</p>
                                 </div>
                             </div>
                         </li>
@@ -146,7 +123,9 @@
                                 </div>
                                 <div class="card_content">
                                     <h2 class="card_title">App Developer</h2>
-                                    <p class="card_text">Kami menyediakan jasa membuat Mobile Developer apa pun dimanapun kapanpun siapapun berapapun pokoknya bisa untuk semuanya udah itu aja. Bingung mau nulis apa lagi, tulisan gak dinilai kan ya hehehe.
+                                    <p class="card_text">Kami menyediakan jasa membuat Mobile Developer apa pun
+                                        dimanapun kapanpun siapapun berapapun pokoknya bisa untuk semuanya udah itu aja.
+                                        Bingung mau nulis apa lagi, tulisan gak dinilai kan ya hehehe.
                                     </p>
                                 </div>
                             </div>
@@ -159,20 +138,24 @@
 
         <div id="projects">
             <div class="container">
-                <h1 style="text-align:center; padding-top: 1rem; padding-bottom: 1rem;"><strong>Featured Projects</strong></h1>
+                <h1 style="text-align:center; padding-top: 1rem; padding-bottom: 1rem;"><strong>Featured
+                        Projects</strong></h1>
                 <div class="featured-projects">
                     <div class="projects-top">
                         <ul class="featured">
-                            <li><img src="img/project1.jpg" alt="awannawa"></li>
-                            <li><img src="img/project2.jpg" alt="awannawa"></li>
-                            <li><img src="img/project3.jpg" alt="awannawa"></li>
-                            <li><img src="img/project4.jpg" alt="awannawa"></li>
-                            <li><img src="img/project5.jpg" alt="awannawa"></li>
-                            <li><img src="img/project6.jpg" alt="awannawa"></li>
+                            <li><img src="https://source.unsplash.com/random/320x260" alt="awannawa"></li>
+                            <li><img src="https://source.unsplash.com/random/320x261" alt="awannawa"></li>
+                            <li><img src="https://source.unsplash.com/random/320x262" alt="awannawa"></li>
+                            <li><img src="https://source.unsplash.com/random/320x263" alt="awannawa"></li>
+                            <li><img src="https://source.unsplash.com/random/320x264" alt="awannawa"></li>
+                            <li><img src="https://source.unsplash.com/random/320x265"alt="awannawa"></li>
                         </ul>
                     </div>
                     <div class="projects-bottom">
-                        <h3>Tools & Skills</h3>
+                        <h3 style="
+                        padding-bottom: 30px;
+                        padding-top: 50px;">
+                        Tools & Skills</h3>
                         <ul class="tools-skills">
                             <li><img src="img/adobexd.png" alt="adobe-xd"></li>
                             <li><img src="img/html5.png" alt="HTML5"></li>
@@ -187,36 +170,40 @@
 
         <div id="about">
             <div class="container">
-                <h1 style="text-align:center; padding-top: 1rem; padding-bottom: 1rem;"><strong>Tentang Kami</strong></h1>
+                <h1 style="text-align:center; padding-top: 1rem; padding-bottom: 1rem;"><strong>Tentang Kami</strong>
+                </h1>
                 <div class="container-about">
                     <div class="konten-text">
-                        Tim kami terdiri dari 5 anggota. Bingung mau nulis apa? pake lorem aja hiahia. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit nostrum cumque optio voluptatum quidem, in dignissimos iste beatae harum. Sapiente eos facilis maiores magnam nemo ad temporibus recusandae rem iusto!
+                        Tim kami terdiri dari 5 anggota. Bingung mau nulis apa? pake lorem aja hiahia. Lorem ipsum
+                        dolor, sit amet consectetur adipisicing elit. Sit nostrum cumque optio voluptatum quidem, in
+                        dignissimos iste beatae harum. Sapiente eos facilis maiores magnam nemo ad temporibus recusandae
+                        rem iusto!
                     </div>
 
                     <div class="bungkus-gallery">
                         <ul class="gallery-anggota">
-                        <li>
-                            <img src="img/GERRARD.png" alt="awannawa">
-                            <p><strong>Ahmad Rizqi K</strong></p> 
-                        </li>
-                        <li>
-                            <img src="img/RONALDO.png" alt="awannawa">
-                            <p><strong>Aldi Syarifullah</strong></p>
-                        </li>
-                        <li>
-                            <img src="img/KAKA.png" alt="awannawa">
-                            <p><strong>Aldi#0406</strong></p> 
-                        </li>
-                        <li>
-                            <img src="img/HAZARD.png" alt="awannawa">
-                            <p><strong>Riki Arjun</strong></p>
-                        </li>
-                        <li>
-                            <img src="img/LAMPARD.png" alt="awannawa">
-                            <p><strong>Yudha</strong></p> 
-                        </li>
-                    </ul>
-                </div>
+                            <li>
+                                <img src="img/awannawa.jpg" alt="awannawa">
+                                <p><strong>Ahmad Rizqi K</strong></p>
+                            </li>
+                            <li>
+                                <img src="img/RONALDO.png" alt="awannawa">
+                                <p><strong>Aldi Syarifullah</strong></p>
+                            </li>
+                            <li>
+                                <img src="img/KAKA.png" alt="awannawa">
+                                <p><strong>Aldi#0406</strong></p>
+                            </li>
+                            <li>
+                                <img src="img/HAZARD.png" alt="awannawa">
+                                <p><strong>Riki Arjun</strong></p>
+                            </li>
+                            <li>
+                                <img src="img/LAMPARD.png" alt="awannawa">
+                                <p><strong>Yudha</strong></p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -224,53 +211,41 @@
         <div id="contact">
             <div class="container">
                 <!-- <h1 style="text-align:center; padding-top: 1rem; padding-bottom: 1rem;"><strong>Contact</strong></h1> -->
-                    <div class="container-contact" style="padding-bottom: 30px;">
-                        <h3>Make a wave at</h3>
-                        <a target="_blank" href="https://github.com/awannawa/A27_DTS20/"
-                        title="Menuju Github Tim A27_DTS20" style="color:inherit;">
+                <div class="container-contact" style="padding-bottom: 30px;">
+                    <h3 style="padding-bottom: 10px;">Lihat Kodingan? klik logo dibawah </h3>
+                    <a target="_blank" href="https://github.com/awannawa/A27_DTS20/" title="Menuju Repository Github Team A27_DTS20"
+                        style="color:inherit;">
                         <i class="fab fa-5x fa-github"></i>
-                        </a>
-                    </div>
+                    </a>
+                </div>
             </div>
         </div>
 
     </main>
 
     <footer style="text-align: center; margin-top: 40px;">
-        <div class="text-footer"><a href="">
-            A27_DTS20 <i class="fas fa-copyright"></i> 2020
-        </a></div>
-        <ul>
+        <ul style="padding-top: 20px;"">
             <li>
-                <a target="_blank" href="https://github.com/awannawa/A27_DTS20/"
-                    title="Menuju Github Tim A27_DTS20" style="color:inherit;">
+                <a target="_blank" href="https://github.com/awannawa/A27_DTS20/" title="Menuju Repository Github Team A27_DTS20"
+                    style="color:inherit;">
                     <i class="fab fa-2x fa-github"></i>
                 </a>
             </li>
             <li style="margin-left: 1em;">
-                <a target="_blank" href="https://discord.gg/mKejpwZ"
-                    title="Menuju Dicord Tim A27_DTS20" style="color:inherit;">
+                <a target="_blank" href="https://discord.gg/mKejpwZ" title="Menuju Dicord Tim A27_DTS20"
+                    style="color:inherit;">
                     <i class="fab fa-2x fa-discord"></i>
                 </a>
             </li>
         </ul>
+        <div class="text-footer"><a href="">
+                A27_DTS20 <i class="fas fa-copyright"></i> 2020
+            </a></div>
     </footer>
 
-    <!-- skrip js premwork disunahkan diatas -->
-    <!-- load jQuery 213 -->
+    <!-- framework diatas -->
+    <!-- buat btt -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <!-- <script type="text/javascript">
-        var jQuery_2_1_3 = $.noConflict(true);
-    </script> -->
-    <!-- end load jQuery 213 -->
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-    <!-- load jQuery 341 -->
-    <!-- <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript">
-        var jQuery_3_4_1 = $.noConflict(true);
-    </script> -->
-    <!-- END load jQuery 341 -->
     <script type="text/javascript" src="js/simple.min.js"></script>
 </body>
 
