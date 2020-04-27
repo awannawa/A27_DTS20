@@ -63,7 +63,7 @@ header a {
     text-align: center;
     display: block;
     text-decoration: none;
-}}
+}
 
 .show-menu-btn,
 .hide-menu-btn {
@@ -74,10 +74,9 @@ header a {
 }
 
 .show-menu-btn {
-   /*  margin-right: 25px; */
+    margin-right: 25px;
     float: right;
 }
-
 
 .navigation a:hover,
 .show-menu-btn:hover,
