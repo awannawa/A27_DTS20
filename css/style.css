@@ -269,6 +269,9 @@ header a {
 }
 
 /* porjects */
+.projects hr {
+width:700px}
+
 .projects-top {
     text-align: center;
     display: table;
