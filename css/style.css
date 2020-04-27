@@ -65,12 +65,6 @@ header a {
     text-decoration: none;
 }
 
-.navigation li a i {
-    width: 100%;
-    font-size: 20px;
-    margin-bottom: 7px;
-}
-
 .show-menu-btn,
 .hide-menu-btn {
     transition: 0.4s;
