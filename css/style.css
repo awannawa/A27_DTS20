@@ -108,7 +108,7 @@ header a {
     z-index: 1000;
     cursor: pointer;
 }
-#btt.show {
+#btt .show {
     opacity: 1;
     visibility: visible;
 }
